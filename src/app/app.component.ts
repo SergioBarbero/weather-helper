@@ -107,7 +107,6 @@ export class AppComponent implements OnInit {
 	* @param {string | undefined} name of the city or undefined  
 	*/
 	public displayFn(city?: City): string | undefined {
-		console.log(city ? city.name : undefined);
 		return city ? city.name : undefined;
 	}
 }
