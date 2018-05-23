@@ -1,0 +1,29 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body{
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-right: 7px;
+  margin: auto;
+  background-image: url("/assets/background.png");
+}
+
+@media screen and (min-width: 1025px) /* Desktop */ {
+  body {
+    width: 60%;
+  }
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+  body {
+    width: 98%;
+
+  }
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+  body {
+    width: 95%;
+  }
+}
+

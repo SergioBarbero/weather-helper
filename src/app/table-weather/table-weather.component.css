@@ -1,0 +1,20 @@
+@media screen and (max-width: 500px) /* Mobile */ {
+  .pressure {
+  	display: none
+  }
+  td{
+	min-width: 25px;
+	max-width: 27px;
+  }
+}
+
+.spinner{
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table{
+	width: 100%;
+}
